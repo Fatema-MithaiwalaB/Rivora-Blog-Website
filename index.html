@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Rivora</title>
+    <link rel="stylesheet" href="css/welcome.css" />
+</head>
+
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to <span>Rivora</span></h1>
+        <p>Get ready to explore the River of Untold Thoughts. ✨</p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.querySelector(".welcome-container").classList.add("zoom-fade-out");
+        }, 7000);
+
+        setTimeout(() => {
+            window.location.href = "login.html";
+        }, 8000);
+    </script>
+</body>
+
+</html>
